@@ -1,0 +1,39 @@
+<section class="arrivals mt-4" *ngIf="slides != undefined && slides.length >= 1">
+    <div class="container">
+        <div id="carrouselIndicatorSlider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-indicators">
+                <button *ngFor="let slide of slides; let i = index" type="button" data-bs-target="#carrouselIndicatorSlider" [attr.data-bs-slide-to]="i" [class.active]="i === 0" aria-current="true" aria-label="Slide 1"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item rounded" *ngFor="let slide of slides; let i = index" [class.active]="i === 0">
+                    <div class="row align-items-center">
+                        <a [routerLink]="slide.link" class="col-8 rounded">
+                            <app-image class="rounded w-100" [src]="'/website_assets/schuco/slides/' + slide.image"  />
+                        </a>
+                        <div class="col-4 description">
+                            <h3>{{slide.title[locale]}}</h3>
+                            <p class="text-justify">{{slide.description[locale]}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="arrow arrow--left slick-arrow" href="#carrouselIndicatorSlider" role="button" data-bs-slide="prev">
+                <svg class="arrow_field">
+                    <use xlink:href="./assets/img/symbol_sprite.svg#field"></use>
+                </svg>
+                <svg class="arrow_arr">
+                    <use xlink:href="./assets/img/symbol_sprite.svg#arrow"></use>
+                </svg>
+            </a>
+            <a class="arrow arrow--right slick-arrow" href="#carrouselIndicatorSlider" role="button" data-bs-slide="next">
+                <svg class="arrow_field">
+                    <use xlink:href="./assets/img/symbol_sprite.svg#field"></use>
+                </svg>
+                <svg class="arrow_arr">
+                    <use xlink:href="./assets/img/symbol_sprite.svg#arrow"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+

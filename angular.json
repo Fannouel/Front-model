@@ -4,6 +4,22 @@
   "newProjectRoot": "projects",
   "projects": {
     "milezim-web": {
+      "i18n": {
+        "sourceLocale":{
+          "code": "en",
+          "baseHref": "/en/"
+        },
+        "locales": {
+          "fr": {
+            "translation": "src/locales/messages.fr.xlf",
+            "baseHref": "/fr/"
+          },
+          "de": {
+            "translation": "src/locales/messages.de.xlf",
+            "baseHref": "/de/"
+          }
+        }
+      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,6 +33,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "localize": [
+              "en",
+              "fr",
+              "de"
+            ],
             "outputPath": "dist/milezim-web",
             "index": "src/index.html",
             "browser": "src/main.ts",
@@ -30,17 +51,29 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/cookieconsent/build/cookieconsent.min.css",
+              "node_modules/ngx-red-zoom/styles/_base.scss",
+              "node_modules/ngx-red-zoom/styles/_style-window.scss",
               "src/styles.scss"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/cookieconsent/build/cookieconsent.min.js"
+            ],
             "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "prerender": false,
+            "ssr": false
           },
           "configurations": {
             "production": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
               "budgets": [
                 {
                   "type": "initial",
@@ -59,6 +92,15 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "en": {
+              "localize": ["en"]
+            },
+            "fr": {
+              "localize": ["fr"]
+            },
+            "de": {
+              "localize": ["de"]
             }
           },
           "defaultConfiguration": "production"
@@ -71,6 +113,15 @@
             },
             "development": {
               "buildTarget": "milezim-web:build:development"
+            },
+            "en": {
+              "buildTarget": "milezim-web:build:en"
+            },
+            "fr": {
+              "buildTarget": "milezim-web:build:fr"
+            },
+            "de": {
+              "buildTarget": "milezim-web:build:de"
             }
           },
           "defaultConfiguration": "development"
@@ -78,7 +129,11 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "milezim-web:build"
+            "buildTarget": "milezim-web:build",
+            "format": "xlf2",
+            "outputPath": "src/locales",
+            "sourceLanguageTargetFile": "messages.en.xlf",
+            "targetFiles": ["messages.en.xlf", "messages.fr.xlf", "messages.de.xlf"]
           }
         },
         "test": {
@@ -102,5 +157,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "43601563-673c-463d-8ae5-77baeecc08c0"
   }
 }

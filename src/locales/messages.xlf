@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+  <file id="ngi18n" original="ng.template">
+    <unit id="directlinks">
+      <segment>
+        <source>Directlinks</source>
+      </segment>
+    </unit>
+    <unit id="indevelopment">
+      <segment>
+        <source>In Development</source>
+      </segment>
+    </unit>
+    <unit id="comingsoon">
+      <segment>
+        <source>Coming Soon</source>
+      </segment>
+    </unit>
+    <unit id="latestmodels">
+      <segment>
+        <source>Latest Models</source>
+      </segment>
+    </unit>
+    <unit id="legal-notice">
+      <segment>
+        <source>Legal notice</source>
+      </segment>
+    </unit>
+    <unit id="cookies">
+      <segment>
+        <source>Cookies</source>
+      </segment>
+    </unit>
+    <unit id="home-top-brands">
+      <segment>
+        <source>Top brands</source>
+      </segment>
+    </unit>
+    <unit id="menu-home">
+      <segment>
+        <source>Home</source>
+      </segment>
+    </unit>
+    <unit id="menu-categories">
+      <segment>
+        <source>Categories</source>
+      </segment>
+    </unit>
+    <unit id="loading">
+      <segment>
+        <source>Loading...</source>
+      </segment>
+    </unit>
+    <unit id="menu-novelties">
+      <segment>
+        <source>Novelties</source>
+      </segment>
+    </unit>
+    <unit id="menu-social-wall">
+      <segment>
+        <source>Social Wall</source>
+      </segment>
+    </unit>
+    <unit id="menu-about">
+      <segment>
+        <source>About Schuco</source>
+      </segment>
+    </unit>
+    <unit id="no-products-found">
+      <segment>
+        <source>No products found.</source>
+      </segment>
+    </unit>
+    <unit id="search-input-placeholder">
+      <segment>
+        <source>What are you searching for?</source>
+      </segment>
+    </unit>
+    <unit id="connect-with-us">
+      <segment>
+        <source>Connect with us!</source>
+      </segment>
+    </unit>
+    <unit id="discover">
+      <segment>
+        <source>Discover</source>
+      </segment>
+    </unit>
+    <unit id="sign-up-newsletter">
+      <segment>
+        <source>Sign up for the newsletter here!</source>
+      </segment>
+    </unit>
+    <unit id="newsletter-email-placeholder">
+      <segment>
+        <source>Your email address</source>
+      </segment>
+    </unit>
+    <unit id="newsletter-subscribe">
+      <segment>
+        <source>Subscribe</source>
+      </segment>
+    </unit>
+    <unit id="thank-you-subscribe-newsletter">
+      <segment>
+        <source>Thank you for subscribing.</source>
+      </segment>
+    </unit>
+    <unit id="error-newsletter-subscribe">
+      <segment>
+        <source>We are sorry, but something has gone wrong. Please try again later.</source>
+      </segment>
+    </unit>
+    <unit id="warning-newsletter-wrong-email">
+      <segment>
+        <source>Please enter a valid email address.</source>
+      </segment>
+    </unit>
+    <unit id="about-title">
+      <segment>
+        <source>A legend in toys</source>
+      </segment>
+    </unit>
+    <unit id="about-description">
+      <segment>
+        <source>Schuco has sold over 100 million toys since it was founded more than 100 years ago. Today, in addition to being a popular addition to children’s bedrooms, many of its treasured toys are kept as valuable collector’s items in glass cabinets.</source>
+      </segment>
+    </unit>
+    <unit id="about-brand-philosophy">
+      <segment>
+        <source>Brand philosophy</source>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality">
+      <segment>
+        <source>Detail and quality</source>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality-1">
+      <segment>
+        <source>Schuco produced its first toy cars in the middle of the 1930s, which featured revolutionary technology, quality, workmanship and functions. Some of these models, for which countless numbers of patents were registered, are once again available as part of Schuco’s product range. The faithfully reproduced models and toys are still made almost exclusively by hand.</source>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality-2">
+      <segment>
+        <source>Schuco is synonymous with:</source>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality-3">
+      <segment>
+        <source><pc id="0" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">Quality</pc><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>Schuco is a reputable premium collector’s brand known for its highly detailed designs and premium quality.</source>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality-4">
+      <segment>
+        <source><pc id="0" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">Variety</pc><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>Schuco produces models in a wide range of scales from 1:12 to 1:600. These include the Silver Arrow, the latest Porsche Turbo, modern and classic tractors, classic motorcycles and a 1:72 scale model of the legendary DO-X flying boat. Thanks to the variety of scales, the Schuco range is very diverse and offers models in many different sizes. The selection of models and intricately detailed designs make for a varied and interesting range.</source>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality-5">
+      <segment>
+        <source><pc id="0" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">Tradition</pc><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>Schuco is characterized by its long-standing tradition, distinguished brand and diverse range, and is one of the sector’s leading manufacturers.</source>
+      </segment>
+    </unit>
+    <unit id="show-more">
+      <segment>
+        <source>Show more</source>
+      </segment>
+    </unit>
+    <unit id="show-less">
+      <segment>
+        <source>Show less</source>
+      </segment>
+    </unit>
+    <unit id="about-history">
+      <segment>
+        <source>History</source>
+      </segment>
+    </unit>
+    <unit id="about-history-title">
+      <segment>
+        <source>Schuco’s corporate history</source>
+      </segment>
+    </unit>
+    <unit id="about-history-1912">
+      <segment>
+        <source>The businessman Heinrich Schreyer founds the toy company “Schreyer und Co.” with the toolmaker Heinrich Müller in Nuremberg. Together, they develop tin toy models.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-1913">
+      <segment>
+        <source>Walking “Tipp-Tapp dogs” become a small sensation in the toy market.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-1914">
+      <segment>
+        <source>The marching “Automato” figure is launched, which served as a model for the first toy robots 50 years later.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-1920">
+      <segment>
+        <source>Müller continues to invent pioneering mechanisms and registers numerous patents – such as the “Acrobato”, a tin artist that does somersaults.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-1936">
+      <segment>
+        <source>The first miniature cars appear, the legendary “Wende-Auto” (Turning car) and the Mercedes “Silver Arrow”, known as Schuco Studio models.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-mid-1950s">
+      <segment>
+        <source>Mid-1950s: Die-cast metal and plastic take the toy market by storm.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-1976">
+      <segment>
+        <source>The company files for bankruptcy. This is followed by several changes of ownership.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-1993">
+      <segment>
+        <source>Brand repositioning with numerous new developments.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-1999">
+      <segment>
+        <source>Schuco is acquired by the SIMBA DICKIE GROUP. Since 1999: Schuco specializes in the production of die-cast models and reclaims its status as a standard-bearer for the sector.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-2004">
+      <segment>
+        <source>The range is expanded to include 1:18 scale models.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-2008">
+      <segment>
+        <source>1:32 scale models of agricultural machinery are added to the range.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-2012">
+      <segment>
+        <source>Schuco celebrates its 100th anniversary.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-2013">
+      <segment>
+        <source>The “PRO.R32” small-series model range is launched.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-2014">
+      <segment>
+        <source>The range is expanded to include 1:64 scale models and the “PRO.R18” small-series model range.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-2016">
+      <segment>
+        <source>The 1:87 scale “Military” range is launched.</source>
+      </segment>
+    </unit>
+    <unit id="about-history-2023">
+      <segment>
+        <source>Schuco becomes a part of Minimax Import &amp; Export Co.Ltd.</source>
+      </segment>
+    </unit>
+    <unit id="about-design-dev-title">
+      <segment>
+        <source>Design and development</source>
+      </segment>
+    </unit>
+    <unit id="about-tradition-innovation">
+      <segment>
+        <source>Tradition and innovation</source>
+      </segment>
+    </unit>
+    <unit id="about-dev-description">
+      <segment>
+        <source>Thanks to our close collaboration with the automotive industry, our range also includes a variety of modern vehicles to complement our vintage models. Schuco invests in new designs every year in order to offer collectors a diverse and interesting selection of detailed models.</source>
+      </segment>
+    </unit>
+    <unit id="about-production">
+      <segment>
+        <source>Production</source>
+      </segment>
+    </unit>
+    <unit id="about-handmade">
+      <segment>
+        <source>Handmade</source>
+      </segment>
+    </unit>
+    <unit id="about-production-description">
+      <segment>
+        <source>The majority of Schuco models are still crafted by hand using meticulous and elaborate techniques. The models are produced in China and Madagascar, among other places. All Schuco products undergo numerous internal and external quality checks prior to customer delivery.</source>
+      </segment>
+    </unit>
+    <unit id="home-theme-worlds">
+      <segment>
+        <source>Theme worlds</source>
+      </segment>
+    </unit>
+    <unit id="home-more-about-schuco">
+      <segment>
+        <source>More about Schuco</source>
+      </segment>
+    </unit>
+    <unit id="home-more-schuco-passionate">
+      <segment>
+        <source>Schuco: Passionate about model cars!</source>
+      </segment>
+    </unit>
+    <unit id="home-text-1">
+      <segment>
+        <source>With over 100 years of experience, Schuco is a leading manufacturer of model vehicles. Whether as a gift or a collector’s item, the highly detailed model cars are designed for fans of all ages.</source>
+      </segment>
+    </unit>
+    <unit id="home-text-2">
+      <segment>
+        <source>Schuco is committed to producing an extensive range of model vehicles that meet the needs of both children and adults. With impressive tradition and quality...</source>
+      </segment>
+    </unit>
+    <unit id="home-text-3">
+      <segment>
+        <source>...as the saying goes (not only for model cars): &quot;Practice makes perfect!&quot;</source>
+      </segment>
+    </unit>
+    <unit id="home-text-4">
+      <segment>
+        <source>As the company’s history shows, Schuco’s model vehicles have enjoyed huge popularity among fans since the 1930s. Today - as in the past - the models are revolutionary in their function and quality. Not least because the vehicles continue to be produced mainly by hand.</source>
+      </segment>
+    </unit>
+    <unit id="home-text-5">
+      <segment>
+        <source>Many people are fascinated by sports cars, nostalgic old-timers and other special cars. Unfortunately, many of us can’t afford to buy our dream car, or the choice of flashy cars is simply too big to fit in a small garage. Schuco’s model cars offer the perfect remedy: Miniature versions of your dream cars!</source>
+      </segment>
+    </unit>
+    <unit id="home-text-6">
+      <segment>
+        <source>Thanks to its extensive range, Schuco offers collector’s items of numerous different vehicles. And unlike the real-life versions, you can afford more than one car! Display as many models as you like without making your home burst at the seams! The model vehicles are also valuable collector’s items. Compared with other toys, the models tend to retain their value.</source>
+      </segment>
+    </unit>
+    <unit id="home-text-7">
+      <segment>
+        <source>Quality, detail and tradition: the perfect combination</source>
+      </segment>
+    </unit>
+    <unit id="home-text-8">
+      <segment>
+        <source>In addition to its popular model cars, Schuco also offers a unique range of motorcycles, aeroplanes, tractors and classic tin toys.</source>
+      </segment>
+    </unit>
+    <unit id="home-text-9">
+      <segment>
+        <source>The diverse range offers something for all tastes in a selection of different scales:</source>
+      </segment>
+    </unit>
+    <unit id="home-text-l-1">
+      <segment>
+        <source>Classic model sizes with a scale of 1:87, 1:43 and 1:18</source>
+      </segment>
+    </unit>
+    <unit id="home-text-l-2">
+      <segment>
+        <source>Models with a scale of 1:64, 1:32, and 1:12</source>
+      </segment>
+    </unit>
+    <unit id="home-text-l-3">
+      <segment>
+        <source>Aircraft models with a scale of 1:72, 1:250 and 1:600</source>
+      </segment>
+    </unit>
+    <unit id="home-text-10">
+      <segment>
+        <source>The range includes highly detailed models of modern cars and iconic vehicles from the previous century in a number of different sizes. The classic vehicle models include must-haves such as the VW Transporter, VW Beetle, Mercedes-Benz 300 SL “Gullwing” and the legendary Porsche 911 (available in the following popular sizes: 1:87, 1:64, 1:43 and 1:18).</source>
+      </segment>
+    </unit>
+    <unit id="home-text-11">
+      <segment>
+        <source>Schuco model cars – dream cars for your own home.</source>
+      </segment>
+    </unit>
+    <unit id="about-legal-notice">
+      <segment>
+        <source>Legal notice</source>
+      </segment>
+    </unit>
+    <unit id="legal-notice-p1">
+      <segment>
+        <source>Management: Hugues Ripert</source>
+      </segment>
+    </unit>
+    <unit id="legal-notice-p2">
+      <segment>
+        <source>If you should have any questions, ideas for improvement or suggestions to make, please feel free to contact our customer service.</source>
+      </segment>
+    </unit>
+    <unit id="legal-notice-t1">
+      <segment>
+        <source>Exclusion of liability</source>
+      </segment>
+    </unit>
+    <unit id="legal-notice-p3">
+      <segment>
+        <source>The information provided on this website has been carefully checked and is regularly updated. Nevertheless, there can be no guarantee that all the details represented here are complete, correct and the most up-to-date. This applies in particular to all links to other websites, to which direct or indirect reference is made. Any details may be added to, removed or amended without prior notification. All the product names, product descriptions and logos cited on this website are registered trademarks and the property of the respective titleholders</source>
+      </segment>
+    </unit>
+    <unit id="legal-notice-t2">
+      <segment>
+        <source>Technical realisation:</source>
+      </segment>
+    </unit>
+    <unit id="legal-notice-p4">
+      <segment>
+        <source>Minimax Import &amp; Export Co. Ltd.</source>
+      </segment>
+    </unit>
+    <unit id="404-oops">
+      <segment>
+        <source>Ooops!</source>
+      </segment>
+    </unit>
+    <unit id="404-error-message">
+      <segment>
+        <source>It seems like the page does not exist.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/>Maybe the search will help?</source>
+      </segment>
+    </unit>
+    <unit id="404-home-page-button">
+      <segment>
+        <source>To home page</source>
+      </segment>
+    </unit>
+    <unit id="socialwall-title">
+      <segment>
+        <source>@schuco_official</source>
+      </segment>
+    </unit>
+    <unit id="socialwall-description">
+      <segment>
+        <source>Share your models on Instagram. Simply use our hashtag #schuco or tag @schuco_official in your posts and become an inspiration for our community.</source>
+      </segment>
+    </unit>
+    <unit id="postedBy">
+      <segment>
+        <source>Posted by</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>
