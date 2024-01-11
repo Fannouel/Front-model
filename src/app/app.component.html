@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
@@ -334,3 +335,70 @@
 
 
 <router-outlet></router-outlet>
+=======
+<navigation></navigation>
+
+<router-outlet></router-outlet>
+
+<footer class="footer">
+  <!-- category links -->
+  <div class="footer_osn">
+    <div class="container">
+      <div class="row footer_osn_nav flex-column flex-lg-row m-0">
+        <div class="col">
+          <div class="headline collapsed px-3 px-md-0"
+               data-bs-toggle="collapse"
+               data-bs-target="#collapseFooterMore"
+               i18n="@@directlinks">Directlinks</div>
+          <ul class="list-unstyled collapse px-4 px-md-0 mb-2 mb-md-0" id="collapseFooterMore">
+            <li class="footer-link"><a title="In Development" i18n-title="@@indevelopment" routerLink="/catalogue/indevelopment/1" i18n="@@indevelopment">In Development</a></li>
+            <li class="footer-link"><a title="Coming Soon" i18n-title="@@comingsoon" routerLink="/catalogue/comingsoon/1" i18n="@@comingsoon">Coming Soon</a></li>
+            <li class="footer-link"><a title="Latest Models" i18n-title="@@latestmodels" routerLink="/catalogue/latestmodels/1" i18n="@@latestmodels">Latest Models</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- below footer -->
+      <div class="footer_osn__wrapper">
+        <div class="container">
+          <div class="footer_osn__social">
+            <!-- social -->
+            <ul class="footer_osn__social_list">
+              <li class="footer_osn__social_list_item">
+                <a href="http://twitter.com/Schuco_DE" title="Twitter" target="_blank" rel="noopener">
+                  <svg>
+                    <use xlink:href="./assets/img/symbol_sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="footer_osn__social_list_item">
+                <a href="https://www.facebook.com/schuco.de" title="Facebook" target="_blank" rel="noopener">
+                  <svg>
+                    <use xlink:href="./assets/img/symbol_sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="footer_osn__social_list_item">
+                <a href="https://www.instagram.com/schuco_official/" title="Instagram" target="_blank" rel="noopener">
+                  <svg>
+                    <use xlink:href="./assets/img/symbol_sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div class="d-lg-block">
+              <a class="d-inline-block footer__copyright footer__copyright--lg" title="Legal notice" href="/legal-notice" i18n="@@legal-notice">Legal notice</a>
+              <!-- <a href="#" class="d-inline-block ml-4 footer__copyright footer__copyright--lg" title="Cookies" (click)="openCookies($event);" i18n="@@cookies">Cookies</a> -->
+            </div>
+            <div class="d-none d-lg-block">
+              <!-- <select-locale></select-locale> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+>>>>>>> master

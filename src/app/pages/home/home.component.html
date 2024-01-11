@@ -1,0 +1,86 @@
+<div class="container custom_container">
+    <slider></slider>
+    <h2 i18n="@@home-theme-worlds" class="text-center">Theme worlds</h2>
+    <div class="container gallery">
+        <!-- Gallery -->
+        <div class="row">
+            <ng-template ngFor let-themes [ngForOf]="themeWorld">
+                <div class="col-{{convertSizeForSmallScreen[themes[0].col]}} col-lg-{{themes[0].col}} image-container rounded">
+                    <a *ngFor="let theme of themes" [routerLink]="theme.link" class="wrapper rounded text-center mb-3">
+                        <app-image src="/website_assets/shuco/{{theme.image}}" alt="" [class]="'w-100 rounded'" />
+                        <div class="caption">
+                            <p>{{theme.title[locale]}}</p>
+                            test
+                        </div>
+                    </a>
+                </div>
+            </ng-template>
+        </div>
+    </div>
+</div>
+<product-slider
+    title="In Development"
+    i18n-title="@@indevelopment"
+    [apiParams]="[{'name': 'webcatalogue', 'op': 'has', 'val': {'name': 'state', 'op': '==', 'val': 'INDEVELOPMENT'}}]"
+    componentId="0" [alternate]="isInDevAlternate">
+</product-slider>
+<product-slider
+    title="Coming Soon"
+    i18n-title="@@comingsoon"
+    [apiParams]="[{'name': 'webcatalogue', 'op': 'has', 'val': {'name': 'state', 'op': '==', 'val': 'COMINGSOON'}}]"
+    componentId="1"
+    [alternate]="true"
+    (nbProductFetchEvent)="onNbProductFetchEvent($event, 'COMINGSOON')">
+</product-slider>
+<product-slider
+    title="Latest Models"
+    i18n-title="@@latestmodels"
+    [apiParams]="[{'name': 'webcatalogue', 'op': 'has', 'val': {'name': 'state', 'op': '==', 'val': 'LATESTMODELS'}}]"
+    componentId="2"
+    (nbProductFetchEvent)="onNbProductFetchEvent($event, 'LATESTMODELS')">
+</product-slider>
+
+<!-- brands -->
+<!-- <brand-section></brand-section> -->
+
+<div class="container container">
+
+    <!-- <social></social> -->
+
+
+    <div class="container text-justify">
+        <h2 class="mt-3" i18n="@@home-more-about-milezim">More about Milezim</h2>
+
+        <h2 class="mt-3" i18n="@@home-more-milezim-passionate">Milezim: Passionate about model cars!</h2>
+
+        <p class="text-justify" i18n="@@home-text-1">With over 100 years of experience, Milezim is a leading manufacturer of model vehicles. Whether as a gift or a collector’s item, the highly detailed model cars are designed for fans of all ages.</p>
+
+        <p i18n="@@home-text-2">Milezim is committed to producing an extensive range of model vehicles that meet the needs of both children and adults.   With impressive tradition and quality...</p>
+
+        <h2 class="mt-3"  i18n="@@home-text-3">...as the saying goes (not only for model cars): "Practice makes perfect!"</h2>
+
+
+        <p i18n="@@home-text-4">As the company’s history shows, Milezim’s model vehicles have enjoyed huge popularity among fans since the 1930s. Today - as in the past - the models are revolutionary in their function and quality. Not least because the vehicles continue to be produced mainly by hand.</p>
+
+        <p i18n="@@home-text-5">Many people are fascinated by sports cars, nostalgic old-timers and other special cars. Unfortunately, many of us can’t afford to buy our dream car, or the choice of flashy cars is simply too big to fit in a small garage.  Milezim’s model cars offer the perfect remedy: Miniature versions of your dream cars!</p>
+
+        <p i18n="@@home-text-6">Thanks to its extensive range, Milezim offers collector’s items of numerous different vehicles. And unlike the real-life versions, you can afford more than one car! Display as many models as you like without making your home burst at the seams! The model vehicles are also valuable collector’s items. Compared with other toys, the models tend to retain their value.</p>
+
+        <h2 i18n="@@home-text-7">Quality, detail and tradition: the perfect combination</h2>
+
+        <p i18n="@@home-text-8">In addition to its popular model cars, Milezim also offers a unique range of motorcycles, aeroplanes, tractors and classic tin toys.</p>
+
+        <p i18n="@@home-text-9">The diverse range offers something for all tastes in a selection of different scales:</p>
+
+        <ul>
+            <li  i18n="@@home-text-l-1">Classic model sizes with a scale of 1:87, 1:43 and 1:18</li>
+            <li i18n="@@home-text-l-2">Models with a scale of 1:64, 1:32, and  1:12</li>
+            <li i18n="@@home-text-l-3">Aircraft models with a scale of 1:72, 1:250 and 1:600</li>
+        </ul>
+
+
+        <p i18n="@@home-text-10">The range includes highly detailed models of modern cars and iconic vehicles from the previous century in a number of different sizes. The classic vehicle models include must-haves such as the VW Transporter, VW Beetle, Mercedes-Benz 300 SL “Gullwing” and the legendary Porsche 911 (available in the following popular sizes: 1:87, 1:64, 1:43 and 1:18).</p>
+
+        <p><strong i18n="@@home-text-11">Milezim model cars – dream cars for your own home.</strong></p>
+    </div>
+</div>

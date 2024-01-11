@@ -1,0 +1,38 @@
+<section class="arrivals mt-4" [class.alternate]="alternate == true" *ngIf="productsRow != undefined && productsRow.length >= 1">
+    <div class="container">
+        <div class="title h1 text-center accent-font">{{title}}</div>
+        <div id="carrouselIndicator{{componentId}}" class="carousel slide" data-ride="carousel">
+            <div class="carousel-indicators">
+                <button *ngFor="let row of productsRow; let i = index" type="button" [attr.data-bs-target]="'#carrouselIndicator' + componentId" [attr.data-bs-slide-to]="i" [class.active]="i === 0" aria-current="true" aria-label="Slide 1"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item" *ngFor="let row of productsRow; let i = index" [class.active]="i === 0">
+                    <div>
+                        <div class="row slider">
+                            <div *ngFor="let product of row" class="col-6 col-lg-3">
+                                <product-box [product]="product"></product-box>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="arrow arrow--left slick-arrow" href="#carrouselIndicator{{componentId}}" role="button" data-bs-slide="prev">
+                <svg class="arrow_field">
+                    <use xlink:href="./assets/img/symbol_sprite.svg#field"></use>
+                </svg>
+                <svg class="arrow_arr">
+                    <use xlink:href="./assets/img/symbol_sprite.svg#arrow"></use>
+                </svg>
+            </a>
+            <a class="arrow arrow--right slick-arrow" href="#carrouselIndicator{{componentId}}" role="button" data-bs-slide="next">
+                <svg class="arrow_field">
+                    <use xlink:href="./assets/img/symbol_sprite.svg#field"></use>
+                </svg>
+                <svg class="arrow_arr">
+                    <use xlink:href="./assets/img/symbol_sprite.svg#arrow"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+</section>
+

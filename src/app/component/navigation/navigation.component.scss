@@ -1,0 +1,36 @@
+.navbar .dropdown-menu {
+    overflow-y: scroll;
+    max-height: 300px;
+    a {
+        color: #000;
+    }
+}
+
+img {
+    max-width: 150px;
+    display: block;
+}
+
+.multi-col {
+    width: 100vw;
+    a.dropdown-item {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.navbar-brand {
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .multi-col {
+        a.dropdown-item {
+            width: 33%;
+        }
+    }
+
+    .navbar-brand {
+        text-align: left;
+    }
+}

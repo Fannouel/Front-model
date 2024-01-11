@@ -1,0 +1,8 @@
+<a *ngIf="product" routerLink="/products/{{product.product_id}}" class="product rounded mt-3 shadow">
+    <img class="rounded w-100" src="{{productsImageURL}}{{product.code}}/{{product.code}}-1-thumb.jpg" (error)="onImageError($event)"   />
+    <div class="content">
+        <span class="name">{{product.name}}</span>
+        <span *ngIf="product.scale"> - {{product.scale.name}}</span><br />
+        <span class="code">{{product.code}}</span>
+    </div>
+</a>

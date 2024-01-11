@@ -1,0 +1,532 @@
+<?xml version="1.0"?><xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US" trgLang="fr">
+  <file id="ngi18n" original="ng.template">
+    <unit id="search-input-placeholder">
+      <segment state="translated">
+        <source>What are you searching for?</source>
+        <target>Que cherchez-vous ?</target>
+      </segment>
+    </unit>
+    <unit id="thank-you-subscribe-newsletter">
+      <segment state="translated">
+        <source>Thank you for subscribing.</source>
+        <target>Merci de vous être abonné.</target>
+      </segment>
+    </unit>
+    <unit id="error-newsletter-subscribe">
+      <segment state="translated">
+        <source>We are sorry, but something has gone wrong. Please try again later.</source>
+        <target>Nous sommes désolés, mais quelque chose n’a pas fonctionné. Veuillez réessayer plus tard.</target>
+      </segment>
+    </unit>
+    <unit id="warning-newsletter-wrong-email">
+      <segment state="translated">
+        <source>Please enter a valid email address.</source>
+        <target>Veuillez saisir une adresse électronique valide.</target>
+      </segment>
+    </unit>
+    <unit id="about-title">
+      <segment state="translated">
+        <source>A legend in toys</source>
+        <target>Une légende parmi les jouets</target>
+      </segment>
+    </unit>
+    <unit id="about-description">
+      <segment state="translated">
+        <source>Schuco has sold over 100 million toys since it was founded more than 100 years ago. Today, in addition to being a popular addition to children’s bedrooms, many of its treasured toys are kept as valuable collector’s items in glass cabinets.</source>
+        <target>Plus de 100 millions de jouets ont déjà été vendus au cours des 100 ans d’existence de Schuco. Beaucoup de ces jouets sont aujourd’hui devenus des pièces de collection de grande valeur et sont plus susceptibles d’être trouvés derrière des vitrines en verre que dans une chambre d’enfant.</target>
+      </segment>
+    </unit>
+    <unit id="about-brand-philosophy">
+      <segment state="translated">
+        <source>Brand philosophy</source>
+        <target>Philosophie de la marque</target>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality">
+      <segment state="translated">
+        <source>Detail and quality</source>
+        <target>Souci du détail et qualité</target>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality-1">
+      <segment state="translated">
+        <source>Schuco produced its first toy cars in the middle of the 1930s, which featured revolutionary technology, quality, workmanship and functions. Some of these models, for which countless numbers of patents were registered, are once again available as part of Schuco’s product range. The faithfully reproduced models and toys are still made almost exclusively by hand.</source>
+        <target>C’est au milieu des années 1930 que Schuco a produit les premiers modèles réduits de voitures révolutionnaires dès le début, non seulement en raison de leur technologie, mais aussi de leur qualité, de leur finition et de leur fonctionnement. Certains de ces modèles, pour lesquels de nombreux brevets ont été déposés, font à nouveau partie de la gamme Schuco actuelle. Aujourd’hui encore, la fabrication des modèles et des jouets authentiques se fait presque exclusivement à la main au moyen de techniques élaborées.</target>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality-2">
+      <segment state="translated">
+        <source>Schuco is synonymous with:</source>
+        <target>La marque Schuco est synonyme de:</target>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality-3">
+      <segment state="translated">
+        <source><pc id="0" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">Quality</pc><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>Schuco is a reputable premium collector’s brand known for its highly detailed designs and premium quality.</source>
+        <target><b>Qualité</b><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>La très grande attention portée aux détails et la qualité élevée de chaque produit font de Schuco une marque hautement respectée par les collectionneurs.</target>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality-4">
+      <segment state="translated">
+        <source><pc id="0" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">Variety</pc><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>Schuco produces models in a wide range of scales from 1:12 to 1:600. These include the Silver Arrow, the latest Porsche Turbo, modern and classic tractors, classic motorcycles and a 1:72 scale model of the legendary DO-X flying boat. Thanks to the variety of scales, the Schuco range is very diverse and offers models in many different sizes. The selection of models and intricately detailed designs make for a varied and interesting range.</source>
+        <target><b>Diversité</b><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>Schuco conçoit des modèles dans une grande variété d’échelles. De 1/12 jusqu’à 1/600. Notre offre s’étend de la Flèche d’argent en étain à la Porsche Turbo actuelle, en passant par les tracteurs, modernes et anciens, jusqu’aux motos les plus connues et au célèbre hydravion DO-X à l’échelle 1/72. Conçus à différentes échelles, les modèles de la gamme Schuco sont particulièrement diversifiés et présentent de multiples dimensions. C’est le choix des modèles et leur finition jusque dans les moindres détails qui font tout l’intérêt et la diversité des jouets Schuco.</target>
+      </segment>
+    </unit>
+    <unit id="about-detail-quality-5">
+      <segment state="translated">
+        <source><pc id="0" equivStart="START_BOLD_TEXT" equivEnd="CLOSE_BOLD_TEXT" type="fmt" dispStart="&lt;b&gt;" dispEnd="&lt;/b&gt;">Tradition</pc><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>Schuco is characterized by its long-standing tradition, distinguished brand and diverse range, and is one of the sector’s leading manufacturers.</source>
+        <target><b>Tradition</b><ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br&gt;"/>La marque Schuco se distingue par sa très longue tradition, sa haute réputation et sa gamme variée de produits. Schuco est l’un des fabricants leaders de son secteur d’activité.</target>
+      </segment>
+    </unit>
+    <unit id="show-more">
+      <segment state="translated">
+        <source>Show more</source>
+        <target>Afficher plus</target>
+      </segment>
+    </unit>
+    <unit id="show-less">
+      <segment state="translated">
+        <source>Show less</source>
+        <target>Afficher moins</target>
+      </segment>
+    </unit>
+    <unit id="about-history">
+      <segment state="translated">
+        <source>History</source>
+        <target>Histoire</target>
+      </segment>
+    </unit>
+    <unit id="about-history-title">
+      <segment state="translated">
+        <source>Schuco’s corporate history</source>
+        <target>L’histoire de l’entreprise Schuco</target>
+      </segment>
+    </unit>
+    <unit id="about-history-1912">
+      <segment state="translated">
+        <source>The businessman Heinrich Schreyer founds the toy company “Schreyer und Co.” with the toolmaker Heinrich Müller in Nuremberg. Together, they develop tin toy models.</source>
+        <target>Le commerçant Heinrich Schreyer s’associe à l’outilleur Heinrich Müller à Nuremberg pour fonder l’entreprise de jouets «Schreyer &amp; Co.». Ils mettent au point des figurines en étain.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-1913">
+      <segment state="translated">
+        <source>Walking “Tipp-Tapp dogs” become a small sensation in the toy market.</source>
+        <target>La figurine de chien «Tipp-Tapp», capable de marcher, fait son petit effet sur le marché du jouet.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-1914">
+      <segment state="translated">
+        <source>The marching “Automato” figure is launched, which served as a model for the first toy robots 50 years later.</source>
+        <target>Lancement du jouet «Automato» capable de marcher tout seul et qui, 50 ans plus tard, servira de modèle aux premiers robots jouets.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-1920">
+      <segment state="translated">
+        <source>Müller continues to invent pioneering mechanisms and registers numerous patents – such as the “Acrobato”, a tin artist that does somersaults.</source>
+        <target>Müller continue d’inventer des mécanismes novateurs et dépose de nombreux brevets, par exemple pour le modèle «Acrobato», artiste en étain qui fait des sauts périlleux.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-1936">
+      <segment state="translated">
+        <source>The first miniature cars appear, the legendary “Wende-Auto” (Turning car) and the Mercedes “Silver Arrow”, known as Schuco Studio models.</source>
+        <target>Lancement des premières voitures miniatures, telles que la mythique «Wende-Auto» et la Mercedes «flèche d’argent», connues en tant que modèles réduits Schuco Studio.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-mid-1950s">
+      <segment state="translated">
+        <source>Mid-1950s: Die-cast metal and plastic take the toy market by storm.</source>
+        <target>Au cours des années 1950, le métal et le plastique conquièrent le marché du jouet.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-1976">
+      <segment state="translated">
+        <source>The company files for bankruptcy. This is followed by several changes of ownership.</source>
+        <target>L’entreprise dépose le bilan. Plusieurs changements de propriétaires ont suivi.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-1993">
+      <segment state="translated">
+        <source>Brand repositioning with numerous new developments.</source>
+        <target>Réalignement de la marque avec de nombreux nouveaux développements.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-1999">
+      <segment state="translated">
+        <source>Schuco is acquired by the SIMBA DICKIE GROUP. Since 1999: Schuco specializes in the production of die-cast models and reclaims its status as a standard-bearer for the sector.</source>
+        <target>Le GROUPE SIMBA DICKIE reprend Schuco. Depuis 1999 : Schuco se concentre sur la production de modèles moulés sous pression en zinc et établit une fois de plus la référence dans ce domaine.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-2004">
+      <segment state="translated">
+        <source>The range is expanded to include 1:18 scale models.</source>
+        <target>Extension de la gamme pour inclure une échelle de 1:18.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-2008">
+      <segment state="translated">
+        <source>1:32 scale models of agricultural machinery are added to the range.</source>
+        <target>Des modèles de technologie agricole à l’échelle 1:32 sont inclus.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-2012">
+      <segment state="translated">
+        <source>Schuco celebrates its 100th anniversary.</source>
+        <target>Schuco fête le 100e anniversaire de son entreprise.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-2013">
+      <segment state="translated">
+        <source>The “PRO.R32” small-series model range is launched.</source>
+        <target>Création de la gamme de modèles petites séries PRO.R32.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-2014">
+      <segment state="translated">
+        <source>The range is expanded to include 1:64 scale models and the “PRO.R18” small-series model range.</source>
+        <target>Extension de la gamme pour inclure une échelle 1:64 et introduction de la ligne de modèles en petites séries PRO.R18.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-2016">
+      <segment state="translated">
+        <source>The 1:87 scale “Military” range is launched.</source>
+        <target>Extension à travers la gamme de produits militaires à l’échelle 1:87.</target>
+      </segment>
+    </unit>
+    <unit id="about-design-dev-title">
+      <segment state="translated">
+        <source>Design and development</source>
+        <target>Conception et développement</target>
+      </segment>
+    </unit>
+    <unit id="about-tradition-innovation">
+      <segment state="translated">
+        <source>Tradition and innovation</source>
+        <target>Tradition et innovation</target>
+      </segment>
+    </unit>
+    <unit id="about-dev-description">
+      <segment state="translated">
+        <source>Thanks to our close collaboration with the automotive industry, our range also includes a variety of modern vehicles to complement our vintage models. Schuco invests in new designs every year in order to offer collectors a diverse and interesting selection of detailed models.</source>
+        <target>Grâce à l’étroite coopération avec l’industrie automobile, outre les modèles historiques, un grand nombre de véhicules actuels peuvent également être trouvés dans la gamme. Schuco investit chaque année dans de nouvelles formes afin de pouvoir offrir aux collectionneurs une sélection variée et intéressante de modèles détaillés.</target>
+      </segment>
+    </unit>
+    <unit id="about-production">
+      <segment state="translated">
+        <source>Production</source>
+        <target>Production</target>
+      </segment>
+    </unit>
+    <unit id="about-handmade">
+      <segment state="translated">
+        <source>Handmade</source>
+        <target>Fait main</target>
+      </segment>
+    </unit>
+    <unit id="about-production-description">
+      <segment state="translated">
+        <source>The majority of Schuco models are still crafted by hand using meticulous and elaborate techniques. The models are produced in China and Madagascar, among other places. All Schuco products undergo numerous internal and external quality checks prior to customer delivery.</source>
+        <target>Les modèles Schuco sont, pour la plupart, fabriqués à la main de manière méticuleuse et élaborée. Les modèles sont produits entre autres en Chine et en Hongrie. Tous les produits Schuco sont soumis à plusieurs contrôles de qualité internes et externes avant d’être livrés au client.</target>
+      </segment>
+    </unit>
+    <unit id="comingsoon">
+      <segment state="translated">
+        <source>Coming Soon</source>
+        <target>Bientôt Disponibles</target>
+      </segment>
+    </unit>
+    <unit id="loading">
+      <segment state="translated">
+        <source>Loading...</source>
+        <target>Chargement…</target>
+      </segment>
+    </unit>
+    <unit id="home-theme-worlds">
+      <segment state="translated">
+        <source>Theme worlds</source>
+        <target>Mondes thématiques</target>
+      </segment>
+    </unit>
+    <unit id="home-top-brands">
+      <segment state="translated">
+        <source>Top brands</source>
+        <target>Top marques</target>
+      </segment>
+    </unit>
+    <unit id="home-more-about-schuco">
+      <segment state="translated">
+        <source>More about Schuco</source>
+        <target>En savoir plus sur Schuco</target>
+      </segment>
+    </unit>
+    <unit id="home-more-schuco-passionate">
+      <segment state="translated">
+        <source>Schuco: Passionate about model cars!</source>
+        <target>Schuco : La passion du modélisme !</target>
+      </segment>
+    </unit>
+    <unit id="home-text-1">
+      <segment state="translated">
+        <source>With over 100 years of experience, Schuco is a leading manufacturer of model vehicles. Whether as a gift or a collector’s item, the highly detailed model cars are designed for fans of all ages.</source>
+        <target>Schuco est un fabricant de modèles réduits de véhicules dont la tradition remonte à plus d’un siècle. Pour les collectionneurs invétérés comme pour les personnes à la recherche d’une idée de cadeau originale pour les petits ou pour les grands, le succès de nos modèles ne s’est jamais démenti.</target>
+      </segment>
+    </unit>
+    <unit id="home-text-2">
+      <segment state="translated">
+        <source>Schuco is committed to producing an extensive range of model vehicles that meet the needs of both children and adults. With impressive tradition and quality...</source>
+        <target>Dès lors qu’il s’agit de son hobby préféré, un adulte a souvent du mal à être pleinement satisfait. Car après tout, il n’y a pas que les enfants qui ont le droit de s’amuser avec leurs jouets, les grands également ! Et c’est justement ce constat qui est à l’origine du concept de la marque Schuco. Avec une tradition et une qualité qui a toujours su séduire…</target>
+      </segment>
+    </unit>
+    <unit id="home-text-3">
+      <segment state="translated">
+        <source>...as the saying goes (not only for model cars): &quot;Practice makes perfect!&quot;</source>
+        <target>… car comme dit si bien le proverbe (pas seulement pour le modélisme) : « C’est en forgeant qu’on devient forgeron »</target>
+      </segment>
+    </unit>
+    <unit id="home-text-4">
+      <segment state="translated">
+        <source>As the company’s history shows, Schuco’s model vehicles have enjoyed huge popularity among fans since the 1930s. Today - as in the past - the models are revolutionary in their function and quality. Not least because the vehicles continue to be produced mainly by hand.</source>
+        <target>L’histoire de la célèbre marque nous montre que ses modèles réduits de véhicules sont particulièrement appréciés des collectionneurs depuis les années 30. Aujourd’hui comme autrefois, les modèles Schuco sont révolutionnaires par leurs fonctions et leur qualité. L’une des raisons principales est qu’ils sont encore largement fabriqués à la main.</target>
+      </segment>
+    </unit>
+    <unit id="home-text-5">
+      <segment state="translated">
+        <source>Many people are fascinated by sports cars, nostalgic old-timers and other special cars. Unfortunately, many of us can’t afford to buy our dream car, or the choice of flashy cars is simply too big to fit in a small garage. Schuco’s model cars offer the perfect remedy: Miniature versions of your dream cars!</source>
+        <target>Bolides ultramodernes, anciennes voitures vintage… beaucoup d’hommes et de femmes partagent cette fascination pour les véhicules spéciaux. Mais bien trop souvent, de telles merveilles restent hors d’atteinte pour la plupart des portefeuilles. Sinon, c’est la taille du garage qui pose problème pour héberger une sélection aussi impressionnante. Les modèles Schuco apportent la solution à tous ces problèmes : « La fascination de l’automobile en miniature » !</target>
+      </segment>
+    </unit>
+    <unit id="home-text-6">
+      <segment state="translated">
+        <source>Thanks to its extensive range, Schuco offers collector’s items of numerous different vehicles. And unlike the real-life versions, you can afford more than one car! Display as many models as you like without making your home burst at the seams! The model vehicles are also valuable collector’s items. Compared with other toys, the models tend to retain their value.</source>
+        <target>Grâce à son offre diversifiée, Schuco propose des pièces de collection adaptées à une grande variété de modèles de véhicules. Et à la différence des modèles de taille réelle, votre portefeuille ne vous oblige pas à vous arrêter à une seule voiture ! Vous pouvez collectionner un nombre impressionnant de véhicules sans surcharger la décoration de votre domicile. Cerise sur le gâteau : collectionner des modèles réduits de véhicules populaires peut s’avérer payant. En effet, contrairement aux jouets habituels, les figurines de haute qualité ont souvent tendance à conserver leur valeur sur le long terme.</target>
+      </segment>
+    </unit>
+    <unit id="home-text-7">
+      <segment state="translated">
+        <source>Quality, detail and tradition: the perfect combination</source>
+        <target>Qualité, tradition et souci du détail : le cocktail gagnant</target>
+      </segment>
+    </unit>
+    <unit id="home-text-8">
+      <segment state="translated">
+        <source>In addition to its popular model cars, Schuco also offers a unique range of motorcycles, aeroplanes, tractors and classic tin toys.</source>
+        <target>Et chez Schuco, cela ne se reflète pas seulement dans les modèles de voitures populaires. Motos, avions, tracteurs ainsi que les classiques en fer blanc complètent la gamme unique et foisonnante de Schuco.</target>
+      </segment>
+    </unit>
+    <unit id="home-text-9">
+      <segment state="translated">
+        <source>The diverse range offers something for all tastes in a selection of different scales:</source>
+        <target>Notre gamme offre tout ce qu’il faut pour tous les goûts à différentes échelles :</target>
+      </segment>
+    </unit>
+    <unit id="home-text-l-1">
+      <segment state="translated">
+        <source>Classic model sizes with a scale of 1:87, 1:43 and 1:18</source>
+        <target>Tailles de modèles classiques à l’échelle 1:87, 1:43 et 1:18</target>
+      </segment>
+    </unit>
+    <unit id="home-text-l-2">
+      <segment state="translated">
+        <source>Models with a scale of 1:64, 1:32, and 1:12</source>
+        <target>Modèles à l’échelle 1:64, 1:32 et 1:12</target>
+      </segment>
+    </unit>
+    <unit id="home-text-l-3">
+      <segment state="translated">
+        <source>Aircraft models with a scale of 1:72, 1:250 and 1:600</source>
+        <target>Modèles d’avion à l’échelle 1:72, 1:250 et 1:600</target>
+      </segment>
+    </unit>
+    <unit id="home-text-10">
+      <segment state="translated">
+        <source>The range includes highly detailed models of modern cars and iconic vehicles from the previous century in a number of different sizes. The classic vehicle models include must-haves such as the VW Transporter, VW Beetle, Mercedes-Benz 300 SL “Gullwing” and the legendary Porsche 911 (available in the following popular sizes: 1:87, 1:64, 1:43 and 1:18).</source>
+        <target>Les icônes du siècle dernier et les véhicules actuels sont disponibles à différentes échelles, avec le même souci du détail et de la précision. Parmi les incontournables, on citera des classiques comme la VW Bulli, la VW Coccinelle, la Mercedes-Benz 300 SL Gullwing et la légendaire Porsche 911 (toutes disponibles à différentes échelles : 1:87, 1:64, 1:43 et 1:18).</target>
+      </segment>
+    </unit>
+    <unit id="home-text-11">
+      <segment state="translated">
+        <source>Schuco model cars – dream cars for your own home.</source>
+        <target>Les modèles réduits Schuco : le rêve de tout homme pour la maison.</target>
+      </segment>
+    </unit>
+    <unit id="about-legal-notice">
+      <segment state="translated">
+        <source>Legal notice</source>
+        <target>Mentions légales</target>
+      </segment>
+    </unit>
+    <unit id="socialwall-title">
+      <segment state="translated">
+        <source>@schuco_official</source>
+        <target>@schuco_official</target>
+      </segment>
+    </unit>
+    <unit id="socialwall-description">
+      <segment state="translated">
+        <source>Share your models on Instagram. Simply use our hashtag #schuco or tag @schuco_official in your posts and become an inspiration for our community.</source>
+        <target>Partagez vos modèles sur Instagram. Utilisez simplement notre hashtag #schuco ou taguez @schuco_official dans vos posts et devenez une source d’inspiration pour notre communauté.</target>
+      </segment>
+    </unit>
+    <unit id="indevelopment">
+      <segment state="translated">
+        <source>In Development</source>
+        <target>En Développement</target>
+      </segment>
+    </unit>
+    <unit id="latestmodels">
+      <segment state="translated">
+        <source>Latest Models</source>
+        <target>Nouveautés</target>
+      </segment>
+    </unit>
+    <unit id="menu-categories">
+      <segment state="translated">
+        <source>Categories</source>
+        <target>Catégories</target>
+      </segment>
+    </unit>
+    <unit id="menu-novelties">
+      <segment state="translated">
+        <source>Novelties</source>
+        <target>Nouveautés</target>
+      </segment>
+    </unit>
+    <unit id="menu-social-wall">
+      <segment state="translated">
+        <source>Social Wall</source>
+        <target>Social Wall</target>
+      </segment>
+    </unit>
+    <unit id="menu-about">
+      <segment state="translated">
+        <source>About Schuco</source>
+        <target>À propos de Schuco</target>
+      </segment>
+    </unit>
+    <unit id="directlinks">
+      <segment state="translated">
+        <source>Directlinks</source>
+        <target>Liens directs</target>
+      </segment>
+    </unit>
+    <unit id="legal-notice">
+      <segment state="translated">
+        <source>Legal notice</source>
+        <target>Mentions légales</target>
+      </segment>
+    </unit>
+    <unit id="cookies">
+      <segment state="translated">
+        <source>Cookies</source>
+        <target>Cookies</target>
+      </segment>
+    </unit>
+    <unit id="404-oops">
+      <segment state="translated">
+        <source>Ooops!</source>
+        <target>Oups!</target>
+      </segment>
+    </unit>
+    <unit id="404-error-message">
+      <segment state="translated">
+        <source>It seems like the page does not exist.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/>Maybe the search will help?</source>
+        <target>Il semble que la page n’existe pas. <ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/>Peut-être que la recherche vous aidera ?</target>
+      </segment>
+    </unit>
+    <unit id="404-home-page-button">
+      <segment state="translated">
+        <source>To home page</source>
+        <target>Vers la page d’accueil</target>
+      </segment>
+    </unit>
+    <unit id="postedBy">
+      <segment state="translated">
+        <source>Posted by</source>
+        <target>Publiée par</target>
+      </segment>
+    </unit>
+    <unit id="connect-with-us">
+      <segment state="translated">
+        <source>Connect with us!</source>
+        <target>Réseautez avec nous!</target>
+      </segment>
+    </unit>
+    <unit id="sign-up-newsletter">
+      <segment state="translated">
+        <source>Sign up for the newsletter here!</source>
+        <target>Inscrivez-vous à la newsletter ici!</target>
+      </segment>
+    </unit>
+    <unit id="newsletter-email-placeholder">
+      <segment state="translated">
+        <source>Your email address</source>
+        <target>Votre adresse e-mail</target>
+      </segment>
+    </unit>
+    <unit id="newsletter-subscribe">
+      <segment state="translated">
+        <source>Subscribe</source>
+        <target>S’abonner</target>
+      </segment>
+    </unit>
+    <unit id="discover">
+      <segment state="translated">
+        <source>Discover</source>
+        <target>En savoir plus</target>
+      </segment>
+    </unit>
+    <unit id="legal-notice-p1">
+      <segment state="translated">
+        <source>Management: Hugues Ripert</source>
+        <target>Gestion: Hugues Ripert</target>
+      </segment>
+    </unit>
+    <unit id="legal-notice-p2">
+      <segment state="translated">
+        <source>If you should have any questions, ideas for improvement or suggestions to make, please feel free to contact our customer service.</source>
+        <target>Si vous avez des questions, des idées d’amélioration ou des suggestions à faire, n’hésitez pas à contacter notre service clientèle.</target>
+      </segment>
+    </unit>
+    <unit id="legal-notice-t1">
+      <segment state="translated">
+        <source>Exclusion of liability</source>
+        <target>Exclusion de responsabilité</target>
+      </segment>
+    </unit>
+    <unit id="legal-notice-p3">
+      <segment state="translated">
+        <source>The information provided on this website has been carefully checked and is regularly updated. Nevertheless, there can be no guarantee that all the details represented here are complete, correct and the most up-to-date. This applies in particular to all links to other websites, to which direct or indirect reference is made. Any details may be added to, removed or amended without prior notification. All the product names, product descriptions and logos cited on this website are registered trademarks and the property of the respective titleholders</source>
+        <target>Les informations fournies sur ce site web ont été soigneusement vérifiées et sont régulièrement mises à jour. Néanmoins, il n’est pas possible de garantir que toutes les informations présentées sont complètes, correctes et à jour. Ceci s’applique en particulier à tous les liens vers d’autres sites web, auxquels il est fait référence directement ou indirectement. Toutes les informations peuvent être complétées, supprimées ou modifiées sans notification préalable. Tous les noms de produits, descriptions de produits et logos cités sur ce site sont des marques déposées et la propriété de leurs détenteurs respectifs</target>
+      </segment>
+    </unit>
+    <unit id="legal-notice-t2">
+      <segment state="translated">
+        <source>Technical realisation:</source>
+        <target>Réalisation technique :</target>
+      </segment>
+    </unit>
+    <unit id="legal-notice-p4">
+      <segment state="translated">
+        <source>Minimax Import &amp; Export Co. Ltd.</source>
+        <target>Minimax Import &amp; Export Co. Ltd.</target>
+      </segment>
+    </unit>
+    <unit id="no-products-found">
+      <segment state="translated">
+        <source>No products found.</source>
+        <target>Aucun produit n’a été trouvé.</target>
+      </segment>
+    </unit>
+    <unit id="about-history-2023">
+      <segment state="translated">
+        <source>Schuco becomes a part of Minimax Import &amp; Export Co.Ltd.</source>
+        <target>Schuco fait désormais partie de Minimax Import &amp; Export Co.Ltd.</target>
+      </segment>
+    </unit>
+    <unit id="menu-home">
+      <segment state="initial">
+        <source>Home</source>
+        <target>Home</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>
