@@ -1,26 +1,12 @@
-<<<<<<< HEAD
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
-=======
 import { AfterViewInit, Component, Inject, NgZone, OnInit } from '@angular/core';
 import { CommonModule, DOCUMENT } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { NavigationComponent } from './component/navigation/navigation.component';
 import $ from 'jquery';
->>>>>>> master
 
 @Component({
   selector: 'app-root',
   standalone: true,
-<<<<<<< HEAD
-  imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
-})
-export class AppComponent {
-  title = 'milezim-web';
-=======
   imports: [
     CommonModule,
     RouterOutlet,
@@ -53,5 +39,4 @@ export class AppComponent implements OnInit{
       });
     });
   }
->>>>>>> master
 }

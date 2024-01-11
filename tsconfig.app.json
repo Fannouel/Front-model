@@ -4,12 +4,8 @@
   "compilerOptions": {
     "outDir": "./out-tsc/app",
     "types": [
-<<<<<<< HEAD
-      "node"
-=======
       "node",
       "@angular/localize"
->>>>>>> master
     ]
   },
   "files": [
